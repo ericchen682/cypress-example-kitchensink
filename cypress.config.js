@@ -1,5 +1,10 @@
 module.exports = {
   projectId: '4b7344',
   allowCypressEnv: false,
-  e2e: {},
+  e2e: {
+    baseUrl: 'http://localhost:8080',
+  },
+  expose: {
+    navbarText: 'cypress.io',
+  },
 }
